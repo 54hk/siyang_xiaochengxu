@@ -1,0 +1,176 @@
+<van-notice-bar color="#D07436" left-icon="../../image/icon_warn.png" text="为了您的财产安全，不要点击陌生链接、不要向任何人透露银行卡或验证信息，谨防诈骗！" />
+<view class='tit' bindtap='logistice'>
+  <image src='../../image/vback.png'></image>
+  <view>
+    <view>
+      <image src='../../image/order_success.png'></image>
+    </view>
+    <view>完成</view>
+  </view>
+  <view>
+    <view>
+      <image src='../../image/icon_kuaid.png'></image>
+    </view>
+    <view>
+      <view>感谢你在糖卡会员店购物，欢迎您再次光临！</view>
+      <view>2018-10-18 18:20:33</view>
+    </view>
+    <view>
+      <image src='../../image/right.png'></image>
+    </view>
+  </view>
+</view>
+
+
+<view class='content'>
+  <view class='tab_cont1'>
+    <view>
+      <view>
+        <image src='../../image/icon_tk.png'></image>
+      </view>
+      <view>糖卡会员店</view>
+      <view>
+        <image src='../../image/right.png'></image>
+      </view>
+    </view>
+    <view></view>
+  </view>
+  <view class='shoplist'>
+    <view>
+      <image src='../../image/imgtest.jpg'></image>
+    </view>
+    <view>
+      <view>绿联安卓转Type-C转接头手机数据…</view>
+      <view>数量：1</view>
+      <view>
+        <view>￥2899.00</view>
+        <view>申请售后</view>
+        <view>加购物车</view>
+      </view>
+    </view>
+  </view>
+  <view class='shoplist'>
+    <view>
+      <image src='../../image/imgtest.jpg'></image>
+    </view>
+    <view>
+      <view>绿联安卓转Type-C转接头手机数据…</view>
+      <view>数量：1</view>
+      <view>
+        <view>￥2899.00</view>
+        <view>申请售后</view>
+        <view>加购物车</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class='gm'>
+  <contact-button type="default-dark" class="gmbtn" size="80" /> 联系客服
+</view>
+
+<view class='bill'>
+  <view>
+    <view>发票类型：</view>
+    <view>个人发票</view>
+  </view>
+  <view>
+    <view>发票抬头：</view>
+    <view>个人</view>
+  </view>
+  <view>
+    <view>发票内容：</view>
+    <view>商品明细</view>
+  </view>
+</view>
+
+<view class='times'>
+  <view>订单编号：8762524</view>
+  <view>下单时间：2018-02-05 16:16:16</view>
+</view>
+<view class='times'>
+  <view>支付方式：微信支付</view>
+  <view>支付时间：2018-02-05 16:16:16</view>
+</view>
+<view class='times'>
+  <view>配送方式：快递配送</view>
+  <view>发货时间：2018-02-05 16:16:16</view>
+</view>
+
+<view class='times'>
+  <view>刘思阳  15146244656</view>
+  <view>北京市昌平区东小口镇天通苑世界村公寓</view>
+</view>
+
+<view class='money'>
+  <view class='payment'>
+    <view>商品金额
+    </view>
+    <view class='pright'>
+      <view>2323.00</view>
+    </view>
+  </view>
+  <view class='payment'>
+    <view>优惠
+    </view>
+    <view class='pright'>
+      <view class='red'>-53.00</view>
+    </view>
+  </view>
+  <view class='payment'>
+    <view>会员权益
+    </view>
+    <view class='pright'>
+      <view class='red'>-23.00</view>
+    </view>
+  </view>
+  <view class='payment'>
+    <view>运费
+    </view>
+    <view class='pright'>
+      <view class='red'>8.00</view>
+    </view>
+  </view>
+  <view class='payment'>
+    <view>
+    </view>
+    <view class='pright'>
+      <view>实付款：￥33.88</view>
+    </view>
+  </view>
+</view>
+<view class='cell'>
+  <view>糖卡会员专享好物</view>
+  <view>
+    <view>更多</view>
+    <view>
+      <image src='../../image/right.png'></image>
+    </view>
+  </view>
+</view>
+<view class='privilege2'>
+  <view>
+    <view><image src='../../image/imgtest.jpg'></image></view>
+    <view>欧舒丹甜蜜樱花沐浴啫喱/身体乳套装</view>
+    <view>￥56</view>
+    <view>月销1234件</view>
+  </view>
+  <view>
+    <view><image src='../../image/imgtest.jpg'></image></view>
+    <view>欧舒丹甜蜜樱花沐浴啫喱/身体乳套装</view>
+    <view>￥56</view>
+    <view>月销1234件</view>
+  </view>
+  <view>
+    <view><image src='../../image/imgtest.jpg'></image></view>
+    <view>欧舒丹甜蜜樱花沐浴啫喱/身体乳套装</view>
+    <view>￥56</view>
+    <view>月销1234件</view>
+  </view>
+  <view>
+    <view><image src='../../image/imgtest.jpg'></image></view>
+    <view>欧舒丹甜蜜樱花沐浴啫喱/身体乳套装</view>
+    <view>￥56</view>
+    <view>月销1234件</view>
+  </view>
+</view>

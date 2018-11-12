@@ -1,0 +1,196 @@
+<image class='titimg' src='../../image/cart_tit.png'></image>
+<view class='vipka'>
+  <view>
+    <view>
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <view>
+      <view>
+        <open-data type="userNickName" lang="zh_CN"></open-data>
+      </view>
+      <view>已为您节省
+        <text>66.00</text>元</view>
+    </view>
+  </view>
+
+  <view>
+    <view>正式会员</view>
+    <view>
+      <view>续费</view>
+      <view>2019-09-09到期</view>
+    </view>
+  </view>
+</view>
+
+<view class='equity'>
+  <view>
+    <view>本月可特权购</view>
+    <view>
+      <text>8</text>次商品</view>
+    <view>每月可有9次额度</view>
+    <view>领取</view>
+  </view>
+
+  <view>
+    <view>以挣奖金</view>
+    <view>
+      <text>￥8686.00</text>
+    </view>
+    <view>每月可有9次额度</view>
+    <view>领取</view>
+  </view>
+</view>
+
+<view class='exclusive'>
+  <view class='cell'>
+    <view>糖卡会员专属</view>
+    <view>
+      <view>全部权益</view>
+      <view>
+        <image src='../../image/right.png'></image>
+      </view>
+    </view>
+  </view>
+  <view>
+    <view>
+      <view>
+        <image src='../../image/vip_icon.png'></image>
+      </view>
+      <view>非会员体验</view>
+    </view>
+    <view>
+      <view>
+        <image src='../../image/vip_icon.png'></image>
+      </view>
+      <view>非会员体验</view>
+    </view>
+    <view>
+      <view>
+        <image src='../../image/vip_icon.png'></image>
+      </view>
+      <view>非会员体验</view>
+    </view>
+    <view>
+      <view>
+        <image src='../../image/vip_icon.png'></image>
+      </view>
+      <view>非会员体验</view>
+    </view>
+    <view>
+      <view>
+        <image src='../../image/vip_icon.png'></image>
+      </view>
+      <view>非会员体验</view>
+    </view>
+  </view>
+</view>
+
+<view class='vt1'>
+  <view>
+    <image src='../../image/icon_xing.png'></image>
+  </view>
+  <view>累计省钱
+    <text>123</text>元</view>
+  <view>
+    <image src='../../image/icon_xing.png'></image>
+  </view>
+</view>
+
+<view class='vt2' bindtap='atonce'>
+  <view>立即续费</view>
+  <view>钻石会员特惠 ￥148/年 ￥299/年</view>
+  <image src='../../image/viptime.png'></image>
+</view>
+
+<view class='cell'>
+  <view>糖卡会员生活特权</view>
+  <view>
+    <view>更多</view>
+    <view>
+      <image src='../../image/right.png'></image>
+    </view>
+  </view>
+</view>
+
+<view class='privilege1'>
+  <view>
+    <view><image src='../../image/imgtest.jpg'></image></view>
+    <view>小可爱</view>
+    <view>9折</view>
+    <view>三天前浏览过</view>
+    <view>使用</view>
+  </view>
+  <view>
+    <view><image src='../../image/imgtest.jpg'></image></view>
+    <view>小可爱</view>
+    <view>9折</view>
+    <view>三天前浏览过</view>
+    <view>使用</view>
+  </view>
+  <view>
+    <view><image src='../../image/imgtest.jpg'></image></view>
+    <view>小可爱</view>
+    <view>9折</view>
+    <view>三天前浏览过</view>
+    <view>使用</view>
+  </view>
+  <view>
+    <view><image src='../../image/imgtest.jpg'></image></view>
+    <view>小可爱</view>
+    <view>9折</view>
+    <view>三天前浏览过</view>
+    <view>使用</view>
+  </view>
+  <view>
+    <view><image src='../../image/imgtest.jpg'></image></view>
+    <view>小可爱</view>
+    <view>9折</view>
+    <view>三天前浏览过</view>
+    <view>使用</view>
+  </view>
+  <view>
+    <view><image src='../../image/imgtest.jpg'></image></view>
+    <view>小可爱</view>
+    <view>9折</view>
+    <view>三天前浏览过</view>
+    <view>使用</view>
+  </view>
+</view>
+
+
+<view class='cell'>
+  <view>糖卡会员专享好物</view>
+  <view>
+    <view>更多</view>
+    <view>
+      <image src='../../image/right.png'></image>
+    </view>
+  </view>
+</view>
+
+<view class='privilege2'>
+  <view>
+    <view><image src='../../image/imgtest.jpg'></image></view>
+    <view>欧舒丹甜蜜樱花沐浴啫喱/身体乳套装</view>
+    <view>￥56</view>
+    <view>月销1234件</view>
+  </view>
+  <view>
+    <view><image src='../../image/imgtest.jpg'></image></view>
+    <view>欧舒丹甜蜜樱花沐浴啫喱/身体乳套装</view>
+    <view>￥56</view>
+    <view>月销1234件</view>
+  </view>
+  <view>
+    <view><image src='../../image/imgtest.jpg'></image></view>
+    <view>欧舒丹甜蜜樱花沐浴啫喱/身体乳套装</view>
+    <view>￥56</view>
+    <view>月销1234件</view>
+  </view>
+  <view>
+    <view><image src='../../image/imgtest.jpg'></image></view>
+    <view>欧舒丹甜蜜樱花沐浴啫喱/身体乳套装</view>
+    <view>￥56</view>
+    <view>月销1234件</view>
+  </view>
+</view>

@@ -1,0 +1,133 @@
+<swiper class="swiper" indicator-dots="true" indicator-active-color="#fff" autoplay="true" interval="5000" duration="1000" style='height:411rpx;z-index:-9'>
+  <block wx:for="{{movies}}" wx:for-index="index">
+    <swiper-item>
+      <image src="{{item.url}}" class="slide-image" mode="aspectFill" />
+    </swiper-item>
+  </block>
+</swiper>
+<view class='nav'>
+  <view bindtap='test'>
+    <view>
+      <image src='../../image/home_icon1.png'></image>
+    </view>
+    <view>非会员体验{{test}}</view>
+  </view>
+
+  <view bindtap='vip'>
+    <view>
+      <image src='../../image/home_icon2.png'></image>
+    </view>
+    <view>会员权益</view>
+  </view>
+
+  <view>
+    <view>
+      <image src='../../image/home_icon3.png'></image>
+    </view>
+    <view>品类馆</view>
+  </view>
+
+  <view>
+    <view>
+      <image src='../../image/home_icon4.png'></image>
+    </view>
+    <view>八折充话费</view>
+  </view>
+
+  <view>
+    <view>
+      <image src='../../image/home_icon5.png'></image>
+    </view>
+    <view>热销榜</view>
+  </view>
+</view>
+
+<view class='nav1'>
+  <image class='lback' src='../../image/lingback.png'></image>
+  <image class='vback' src='../../image/home_vipback.png'></image>
+  <view>
+    <view>
+      <view>砍价0元购</view>
+      <view>描述描述描述</view>
+    </view>
+    <view>
+      <view>会员专享</view>
+      <view>描述描述描述</view>
+    </view>
+  </view>
+</view>
+
+<view class='limit'>
+  <view>
+    <view>限时拼团
+      <text>{{countDownHour}}</text> :
+      <text>{{countDownMinute}}</text> :
+      <text>{{countDownSecond}}</text>
+    </view>
+    <view>更多 <image src='../../image/right.png'></image> </view>
+  </view>
+
+  <view>
+    <view bindtap='details'></view>
+    <view>
+      <view>
+        <image src='../../image/imgtest.jpg'></image>
+        <view>这是围巾啊啊啊</view>
+        <view>描述描述</view>
+        <view class='red'>￥66 <text>￥88</text></view>
+      </view>
+      <view>
+        <image src='../../image/imgtest.jpg'></image>
+        <view>这是围巾啊啊啊</view>
+        <view>描述描述</view>
+        <view class='red'>￥66 <text>￥88</text></view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class='daynew'>
+  <view>每日新品</view>
+  <view class="scroll_box">
+    <scroll-view class="scroll-view_x" scroll-x style="width: auto;overflow:hidden;">
+
+      <view class="item_list">
+        <view></view>
+        <view>
+          <view>首汽约车5元券</view>
+          <view>￥1.00</view>
+        </view>
+        <view class="item_book_text">会员超级特权领取</view>
+      </view>
+      <view class="item_list">
+        <view></view>
+        <view>
+          <view>首汽约车5元券</view>
+          <view>￥1.00</view>
+        </view>
+        <view class="item_book_text">会员超级特权领取</view>
+      </view>
+
+      <view class="item_list">
+        <view></view>
+        <view>
+          <view>首汽约车5元券</view>
+          <view>￥1.00</view>
+        </view>
+        <view class="item_book_text">会员超级特权领取</view>
+      </view>
+
+    </scroll-view>
+  </view>
+</view>
+
+<view class="dialog-mask" wx:if="{{showDialog}}" catchtouchmove='true'>
+    <view class="dialog-container">
+      <view class="dialog-header">获取用户信息</view>
+      <view class="dialog-content">{{modaltit}}</view>
+      <view class="dialog-footer">
+        <button class="dialog-btn cancel-btn" bindtap="cancelBtn">拒绝</button>
+        <button class="dialog-btn confirm-btn" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">同意</button>
+      </view>
+    </view>
+  </view>

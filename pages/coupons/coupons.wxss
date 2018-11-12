@@ -1,0 +1,64 @@
+/* pages/coupons/coupons.wxss */
+page{
+  background: #f5f5f5
+}
+.list{
+  display: flex;
+  padding: 20rpx;
+  background: #fff;
+  align-items: center;
+  margin-top: 10rpx;
+}
+.list>view:nth-child(2) image{
+  height: 36rpx;
+  width: 36rpx;
+  display: block
+}
+.list>view:first-child{
+  width: 247rpx;
+  height: 192rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background:linear-gradient(180deg,rgba(253,204,91,1) 0%,rgba(253,221,63,1) 100%);
+}
+.list>view:first-child>view:first-child{
+  font-size: 38rpx;
+  margin-top: 20rpx;
+}
+.list>view:first-child>view:last-child{
+  font-size: 24rpx;
+  margin-bottom: 20rpx;
+}
+.list>view:last-child{
+  padding-left: 20rpx;
+}
+.list>view:last-child>view:nth-child(1){
+  font-size: 32rpx;
+  color: #4a4a4a;
+  height: 70rpx;
+}
+.list>view:last-child>view:nth-child(2){
+  display: flex;
+  font-size: 24rpx;
+  color: #999;
+  justify-content: space-between;
+  padding: 20rpx 0
+}
+.list>view:last-child>view:nth-child(3){
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+  justify-content: space-between;
+  color: #4a4a4a;
+  border-top: dashed #999 2rpx;
+  padding: 10rpx 0
+}
+.red{
+  color: #F0301D;
+}
+.gray{
+  background: #d8d8d8 !important
+}

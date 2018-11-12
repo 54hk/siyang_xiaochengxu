@@ -1,0 +1,21 @@
+
+
+<view class='content'>
+  <image src="../../image/icon_success.png"></image>
+  <view>支付成功</view>
+  <view>￥230</view>
+  <view>
+    <view>付款方式</view>
+    <view>微信支付</view>
+  </view>
+  <view>
+    <view>收款方</view>
+    <view>糖卡会员店</view>
+  </view>
+</view>
+<image class='line' src='../../image/line.png'></image>
+
+<view class='foot'>
+  <view class='lookorder'>查看订单</view>
+  <view class='gohome'>返回首页</view>
+</view>

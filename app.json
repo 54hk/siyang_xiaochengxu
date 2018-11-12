@@ -1,0 +1,59 @@
+{
+  "pages":[
+    "pages/details/details",
+    "pages/home/home",
+    "pages/getorder/getorder",
+    "pages/cart/cart",
+    "pages/logistice/logistice",
+    "pages/orderdetails/orderdetails",
+    "pages/coupons/coupons",
+    "pages/order/order",
+    "pages/my/my",
+    "pages/vippay/vippay",
+    "pages/vip/vip",
+    "pages/paysuccess/paysuccess",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "background": "gray",
+    "selectedColor": "#FEE555",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "image/navigation_home_nomal.png",
+        "selectedIconPath": "image/navigation_home_select.png"
+      },
+      {
+        "pagePath": "pages/vip/vip",
+        "text": "糖卡会员",
+        "iconPath": "image/navigation_membervip_nomal.png",
+        "selectedIconPath": "image/navigation_membervip_select.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "image/navigation_person_nomal.png",
+        "selectedIconPath": "image/navigation_person_select.png"
+      }
+    ]
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

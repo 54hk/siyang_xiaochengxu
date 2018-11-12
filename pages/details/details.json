@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "详情",
+  "usingComponents": {
+    "van-button": "../../dist/button/index",
+    "van-transition": "../../dist/transition/index",
+    "van-stepper": "../../dist/stepper/index"
+  }
+}

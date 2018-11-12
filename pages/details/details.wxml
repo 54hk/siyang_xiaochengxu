@@ -1,0 +1,148 @@
+<swiper class="swiper" interval="5000" duration="1000">
+  <block wx:for="{{movies}}" wx:for-index="index" wx:key="key">
+    <swiper-item>
+      <image src="{{item.url}}" class="slide-image" mode="aspectFill" />
+    </swiper-item>
+  </block>
+</swiper>
+<view class='shoptit'>
+  <view>
+    <image src='../../image/hot.png'></image> 我是一个钢化膜我是一个钢化膜我是一个钢化膜我是一个钢化膜我是一个钢化膜</view>
+  <view>板正板正板正板正板正板正板正板正板正板正板正板正</view>
+  <view>糖卡价：￥10.00 ~ ￥500.00</view>
+  <view>会员价：￥8.00 ~ ￥480.00
+    <image src='../../image/vip.png'></image>
+  </view>
+</view>
+<view bindtap='vip'>
+<image class='vipAD' src='../../image/AD.png'></image>
+</view>
+
+
+<view class='shopdet'>
+  <view>
+    <view>
+      <image class='port' src='../../image/port.png'></image>
+    </view>
+    <view>
+      <image src='../../image/yes.png'></image>会员特价</view>
+    <view>
+      <image src='../../image/yes.png'></image>官方售后</view>
+    <view>
+      <image src='../../image/yes.png'></image>正品保障</view>
+    <view>
+      <image class='omit' src='../../image/icon_omit.png'></image>
+    </view>
+  </view>
+  <view class='detlist'>
+    <view>
+      <view>促销</view>
+      <view>
+        <text>换购</text>购买1件可优惠换购热销商品33333333333333333</view>
+      <view>
+        <image class='omit' src='../../image/icon_omit.png'></image>
+      </view>
+    </view>
+    <view>
+      <view></view>
+      <view>
+        <text>满额返券</text>消费满10元返配件优惠券2222222222222</view>
+      <view></view>
+    </view>
+    <view>
+      <view></view>
+      <view>
+        <text>会员购买限制</text>糖卡会员价格不与套装优惠1111111111</view>
+      <view></view>
+    </view>
+  </view>
+
+</view>
+
+
+<view class='sku' bindtap='show'>
+  <view>已选</view>
+  <view>【6.15寸】多大都可以换个不锈钢盆</view>
+  <view> <image class='omit' src='../../image/icon_omit.png'></image></view>
+</view>
+
+<view class='sendto'>
+  <view>
+    <view>送至</view>
+    <view>
+      <image src='../../image/car.png'></image>昌平区天通苑世界村公寓</view>
+    <view> <image class='omit' src='../../image/icon_omit.png'></image></view>
+  </view>
+  <view>
+    <view></view>
+    <view>
+      <text>现货</text>，预计后天（22月22日）送达</view>
+  </view>
+  <view>
+    <view>重量</view>
+    <view>0.04kg</view>
+  </view>
+</view>
+
+<van-transition name="fade" show="{{ show }}"  custom-class="block" class='skub'>
+  <view bindtap='confirm' class='skuback' catchtouchmove='true'></view>
+</van-transition>
+
+
+<van-transition name="fade-up" show="{{ show }}" custom-class="block" class='skulist'  catchtouchmove='true'>
+  <view>
+    <view class='param'>
+      <view><image src='../../image/imgtest.jpg'></image></view>
+      <view>
+        <view>￥3600.00</view>
+        <view>会员价：￥2897.00</view>
+        <view>商品编码：2874615</view>
+      </view>
+    </view>
+
+    <view class='skudet'>
+      <view>颜色</view>
+      <view class='sel'>
+        <view wx:for="{{skucor}}" id="{{index}}" style="{{act==index?'color:#FDDD3F !important;background:#4a4a4a !important':''}}" bindtap='selcor'>{{item}}</view>
+      </view>
+      <view>配件</view>
+      <view class='sel'>
+        <view>电脑包</view>
+      </view>
+      <view class='skunum'>
+        <view>数量</view>
+        <view><van-stepper value="{{ 1 }}" bind:change="onChange" /></view>
+      </view>
+      
+    </view>
+
+
+    <view class="confirm {{isIpx?'fix-iphonex-button':''}}" bindtap='confirmto'>
+     确认
+    </view>
+      <view class="button-group {{isIpx?'fix-iphonex-button':''}}"></view> 
+  </view>
+  
+</van-transition>
+
+<view class='foots'></view>
+
+
+<view class="foot {{isIpx?'fix-iphonex-button':''}}">
+  <view>
+    <view>
+      <image src='../../image/icon_shopcar.png'></image>
+    </view>
+    <view>购物车</view>
+  </view>
+  <view>
+    <view>
+      <image src='../../image/icon_service.png'></image>
+    </view>
+    <view>联系客服</view>
+    <contact-button type="default-dark"  class="gm" size="80" />
+  </view>
+  <view bindtap='confirmto'>加入购物车</view>
+</view>
+<view class="button-group {{isIpx?'fix-iphonex-button':''}}"></view> 
+

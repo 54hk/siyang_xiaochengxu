@@ -1,0 +1,203 @@
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+  <block wx:for="{{movies}}" wx:for-index="index" wx:key="key">
+    <swiper-item>
+      <image src="{{item.url}}" class="slide-image" mode="aspectFill" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='intro'>
+  <view>会员尊享</view>
+  <view>丰富权益</view>
+  <view>专属服务</view>
+</view>
+
+<view class='navbar'>
+  <view>
+    <view>
+      <image src='../../image/img.png'></image>
+    </view>
+    <view>9.9包邮</view>
+  </view>
+
+  <view>
+    <view>
+      <image src='../../image/img.png'></image>
+    </view>
+    <view>9.9包邮</view>
+  </view>
+
+  <view>
+    <view>
+      <image src='../../image/img.png'></image>
+    </view>
+    <view>9.9包邮</view>
+  </view>
+
+  <view>
+    <view>
+      <image src='../../image/img.png'></image>
+    </view>
+    <view>9.9包邮</view>
+  </view>
+</view>
+
+<view class='draw'>
+  <view></view>
+  <view>
+    <view>
+      <view>权益领取</view>
+      <view>会员超级特权领取</view>
+      <view></view>
+    </view>
+    <view>
+      <view>权益领取</view>
+      <view>会员超级特权领取</view>
+      <view></view>
+    </view>
+    <view>
+      <view>权益领取</view>
+      <view>会员超级特权领取</view>
+      <view></view>
+    </view>
+    <view>
+      <view>权益领取</view>
+      <view>会员超级特权领取</view>
+      <view></view>
+    </view>
+  </view>
+</view>
+
+<view class='limit'>
+  <view>
+    <view>限时体验
+      <text>20</text> :
+      <text>20</text> :
+      <text>20</text>
+    </view>
+    <view>更多</view>
+  </view>
+
+  <view>
+    <view>
+      <view></view>
+      <view>
+        <text>非会员</text>
+        <text>拼</text>
+      </view>
+      <view>首汽约车5元券</view>
+      <view>￥1.00
+        <text>￥5.00</text>
+      </view>
+    </view>
+
+    <view>
+      <view></view>
+      <view>
+        <text>非会员</text>
+        <text>拼</text>
+      </view>
+      <view>首汽约车5元券</view>
+      <view>￥1.00
+        <text>￥5.00</text>
+      </view>
+    </view>
+
+    <view>
+      <view></view>
+      <view>
+        <text>非会员</text>
+        <text>拼</text>
+      </view>
+      <view>首汽约车5元券</view>
+      <view>￥1.00
+        <text>￥5.00</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class='daynew'>
+  <view>每日新品</view>
+  <view class="scroll_box">
+    <scroll-view class="scroll-view_x" scroll-x style="width: auto;overflow:hidden;">
+
+      <view class="item_list">
+        <view></view>
+        <view>
+          <view>首汽约车5元券</view>
+          <view>￥1.00</view>
+        </view>
+        <view class="item_book_text">会员超级特权领取</view>
+      </view>
+      <view class="item_list">
+        <view></view>
+        <view>
+          <view>首汽约车5元券</view>
+          <view>￥1.00</view>
+        </view>
+        <view class="item_book_text">会员超级特权领取</view>
+      </view>
+
+      <view class="item_list">
+        <view></view>
+        <view>
+          <view>首汽约车5元券</view>
+          <view>￥1.00</view>
+        </view>
+        <view class="item_book_text">会员超级特权领取</view>
+      </view>
+
+    </scroll-view>
+  </view>
+</view>
+
+<view class='hot'>
+  <view>
+    <view>更多精品</view>
+    <view>会员超级特权领取</view>
+  </view>
+
+  <view>
+    <view>
+      <view></view>
+      <view>
+        <text>会员专享</text>
+      </view>
+      <view>首汽约车5元券</view>
+      <view>￥1.00
+        <text>￥5.00</text>
+      </view>
+    </view>
+    <view>
+      <view></view>
+      <view>
+        <text>会员专享</text>
+      </view>
+      <view>首汽约车5元券</view>
+      <view>￥1.00
+        <text>￥5.00</text>
+      </view>
+    </view>
+    <view>
+      <view></view>
+      <view>
+        <text>会员专享</text>
+      </view>
+      <view>首汽约车5元券</view>
+      <view>￥1.00
+        <text>￥5.00</text>
+      </view>
+    </view>
+    <view>
+      <view></view>
+      <view>
+        <text>会员专享</text>
+      </view>
+      <view>首汽约车5元券</view>
+      <view>￥1.00
+        <text>￥5.00</text>
+      </view>
+    </view>
+  </view>
+</view>

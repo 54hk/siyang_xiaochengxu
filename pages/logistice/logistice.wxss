@@ -1,0 +1,66 @@
+page{
+  background: #fbfbfb
+}
+
+.tit{
+  background: #F92856;
+  padding: 40rpx;
+  color: #fff
+}
+.tit>view:first-child{
+  font-size: 32rpx;
+  padding: 10rpx 0
+}
+.tit>view:last-child{
+  font-size: 28rpx;
+  padding: 10rpx 0
+}
+
+.cell {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #4a4a4a;
+  font-size: 32rpx;
+  padding: 40rpx 20rpx;
+  font-weight: 600;
+  margin-top: 20rpx;
+  background: #fff
+}
+
+.cell image {
+  height: 14rpx;
+  width: 24rpx;
+}
+
+.cell>view:last-child {
+  display: flex;
+  font-size: 24rpx;
+  color: #9b9b9b;
+}
+.privilege2{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap
+}
+.privilege2>view{
+  width: 336rpx;
+  padding-bottom: 40rpx;
+}
+.privilege2 image{
+  height: 336rpx;
+  width: 336rpx;
+}
+.privilege2>view>view:nth-child(2){
+  font-size: 30rpx;
+  color: #333
+}
+.privilege2>view>view:nth-child(3){
+  font-size: 36rpx;
+  color: #F55748
+}
+.privilege2>view>view:nth-child(4){
+  color: #999;
+  font-size: 24rpx;
+}

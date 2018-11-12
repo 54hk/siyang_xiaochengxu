@@ -1,0 +1,80 @@
+<!--pages/coupons/coupons.wxml-->
+<van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="未使用">
+
+    <view class='list'>
+      <view>
+        <view>￥1000</view>
+        <view>满2999可用</view>
+      </view>
+      <view>
+        <view>仅限购买B&O品牌指定商品使用</view>
+        <view>
+          <view>2018-11-11日可用</view>
+          <view class='red'>去使用</view>
+        </view>
+        <view>
+          <view>详细信息</view>
+          <view><image src='../../image/bottom.png'></image></view>
+        </view>
+      </view>
+    </view>
+
+    <view class='list'>
+      <view>
+        <view>￥1000</view>
+        <view>满2999可用</view>
+      </view>
+      <view>
+        <view>仅限购买B&O品牌指定商品使用</view>
+        <view>
+          <view>2018-11-11日可用</view>
+          <view class='red'>去使用</view>
+        </view>
+        <view>
+          <view>详细信息</view>
+          <view><image src='../../image/bottom.png'></image></view>
+        </view>
+      </view>
+    </view>
+  
+  </van-tab>
+  <van-tab title="已使用">
+    <view class='list'>
+      <view class='gray'>
+        <view>￥1000</view>
+        <view>满2999可用</view>
+      </view>
+      <view>
+        <view>仅限购买B&O品牌指定商品使用</view>
+        <view>
+          <view>2018-11-11日可用</view>
+          <view class='red'>去使用</view>
+        </view>
+        <view>
+          <view>详细信息</view>
+          <view><image src='../../image/bottom.png'></image></view>
+        </view>
+      </view>
+    </view>
+
+    <view class='list'>
+      <view class='gray'>
+        <view>￥1000</view>
+        <view>满2999可用</view>
+      </view>
+      <view>
+        <view>仅限购买B&O品牌指定商品使用</view>
+        <view>
+          <view>2018-11-11日可用</view>
+          <view class='red'>去使用</view>
+        </view>
+        <view>
+          <view>详细信息</view>
+          <view><image src='../../image/bottom.png'></image></view>
+        </view>
+      </view>
+    </view>
+  </van-tab>
+  <van-tab title="已过期">333</van-tab>
+</van-tabs>

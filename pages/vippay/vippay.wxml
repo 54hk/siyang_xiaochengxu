@@ -1,0 +1,48 @@
+<image class='titimg' src='../../image/cart_tit.png'></image>
+<view class='vipka'>
+  <view>
+    <image src='../../image/logo.png'></image>
+  </view>
+  <view>糖卡VIP会员付费</view>
+  <view>正式会员</view>
+</view>
+
+<view class='list'>
+  <view>
+    <view>购买方式</view>
+    <view>付费购买</view>
+  </view>
+
+  <view>
+    <view>购买年限</view>
+    <view class='viptime'>
+      <picker bindchange="viptime" value="{{index}}" range="{{viptime}}" mode="selector">
+        <view class="picker">
+         {{viptime[index]}}
+        </view>
+      </picker>
+    </view>
+    <image src='../../image/right.png'></image>
+  </view>
+
+  <view>
+    <view>发票信息</view>
+    <view>电子普通发票
+      <text>（会员服务-个人）</text>
+    </view>
+  </view>
+
+  <view>
+    <view>应付金额</view>
+    <view>￥166
+      <text>￥188</text>
+    </view>
+  </view>
+</view>
+
+<view class='send'>
+  <view>立即支付</view>
+  <view>开通即视为同意
+    <text>《糖卡会员正式期-用户协议》</text>
+  </view>
+</view>

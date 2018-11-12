@@ -1,0 +1,150 @@
+page{
+  background: #f5f5f5
+}
+.tit{
+  height: 317rpx;
+  width: 750rpx;
+  z-index: -1
+}
+.user{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -256rpx;
+  z-index: 6
+}
+.user>view{
+  
+}
+.user>view:last-child{
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 40rpx;
+}
+.user>view:first-child>view{
+  padding: 10rpx 0;
+  margin-left: 40rpx;
+}
+.user>view:first-child>view:first-child{
+  font-size: 36rpx;
+  color: #4a4a4a
+}
+.user>view:first-child>view:last-child{
+  background: #CBAD6B;
+  color: #fff;
+  border-radius: 20rpx;
+  font-size: 28rpx;
+  padding: 10rpx 20rpx;
+}
+.order{
+  margin-top: 177rpx;
+  background: #fff;
+  padding: 40rpx 0
+}
+.order>view:first-child{
+  padding:0 30rpx;
+  font-size: 32rpx;
+  padding-bottom: 10rpx;
+}
+.order>view:last-child{
+  display: flex;
+  font-size: 24rpx;
+  color: #4a4a4a;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 20rpx;
+}
+.order>view:last-child image{
+  height: 94rpx;
+  width: 94rpx;
+}
+
+.account{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+  padding: 40rpx 0;
+  margin-top: 4rpx;
+}
+.account>view{
+  text-align: center;
+  font-size: 24rpx;
+}
+.account>view>view:first-child{
+  font-size: 38rpx;
+  height: 94rpx;
+  width: 94rpx;
+  line-height: 94rpx;
+}
+.account image{
+  height: 94rpx;
+  width: 94rpx;
+}
+.banner{
+  width: 100%;
+  margin-top: 20rpx
+}
+.banner image{
+  width: 710rpx;
+  margin: 0 auto;
+  height: 200rpx;
+  display: block
+}
+.cellback{
+  width: 100%;
+  background: #fff
+}
+.cell {
+  width: 710rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #4a4a4a;
+  font-size: 32rpx;
+  padding: 40rpx 0;
+  font-weight: 600;
+  margin-top: 20rpx;
+  background: #fff
+}
+
+.cell image {
+  height: 14rpx;
+  width: 24rpx;
+}
+
+.cell>view:last-child {
+  display: flex;
+  font-size: 24rpx;
+  color: #9b9b9b;
+}
+
+.privilege2{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: #fff  
+}
+.privilege2>view{
+  width: 336rpx;
+  padding-bottom: 40rpx;
+}
+.privilege2 image{
+  height: 336rpx;
+  width: 336rpx;
+}
+.privilege2>view>view:nth-child(2){
+  font-size: 30rpx;
+  color: #333
+}
+.privilege2>view>view:nth-child(3){
+  font-size: 36rpx;
+  color: #F55748
+}
+.privilege2>view>view:nth-child(4){
+  color: #999;
+  font-size: 24rpx;
+}

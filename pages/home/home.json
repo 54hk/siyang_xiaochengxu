@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "糖卡会员店",
+  "usingComponents": {
+    "van-stepper": "../../dist/stepper/index"
+  }
+}

@@ -1,0 +1,239 @@
+page{
+  background: #fbfbfb
+}
+
+
+.tit{
+  position: relative
+}
+.tit>image{
+  height: 207rpx;
+  width: 750rpx;
+  position: absolute;
+  z-index: -1
+}
+.tit>view:nth-child(2){
+  display: flex;
+  align-items: center;
+  color: #4A4A4A;
+  padding-top: 44rpx;
+  font-size: 32rpx
+}
+.tit>view:nth-child(2) image{
+  height: 38rpx;
+  width: 38rpx;
+  display: block;
+  padding: 0 20rpx;
+}
+.tit>view:nth-child(3){
+  height: 130rpx;
+  width: 710rpx;
+  background: #fff;
+  display: flex;
+  margin: 0 auto;
+  box-shadow: 0 0 20rpx #bbb;
+  border-radius: 10rpx;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50rpx
+}
+.tit>view:nth-child(3) image{
+  height: 38rpx;
+  width: 38rpx;
+  display: block;
+  padding: 20rpx;
+}
+.tit>view:nth-child(3)>view:nth-child(2)>view:nth-child(1){
+  color: #4a4a4a;
+  font-size: 28rpx;
+    overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 550rpx;
+
+  }
+  .tit>view:nth-child(3)>view:nth-child(2)>view:nth-child(2){
+    color: #9b9b9b;
+    
+
+}
+.tit>view:nth-child(3)>view:nth-child(2)>view:nth-child(2){
+  color: #9b9b9b;
+  font-size: 24rpx;
+}
+
+.content{
+  margin-top: 28rpx
+}
+
+.content>.tab_cont1 image{
+  height: 34rpx;
+  width: 34rpx;
+  display: block;
+  padding: 0 20rpx;
+  margin-top: 6rpx;
+}
+.content>.tab_cont1{
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 0;
+  background: #fff;
+  align-items: center
+}
+.content>.tab_cont1>view:first-child{
+  display: flex;
+  align-items: center;
+  font-size: 32rpx;
+  padding-left: 20rpx;
+}
+.content>.tab_cont1>view:last-child{
+  font-size: 32rpx;
+  color: #F02025;
+  padding-right: 20rpx;
+}
+.shoplist{
+  display: flex;
+  font-size: 28rpx;
+  padding: 20rpx;
+  background: #fff;
+  color: #4a4a4a;
+  align-items: center;
+  border-bottom: 2rpx solid #eee
+}
+.shoplist>view:first-child image{
+  height: 128rpx;
+  width: 128rpx;
+  padding: 20rpx;
+}
+.shoplist>view:nth-child(2){
+  padding: 20rpx 0;
+}
+.shoplist>view:nth-child(2)>view:nth-child(3){
+  display: flex;
+  justify-content: space-between;
+  padding-right: 40rpx;
+  margin-top: 10rpx
+}
+.shoplist>view:nth-child(2)>view:first-child{
+  width: 520rpx;
+    overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  height: 40rpx;
+}
+.shoplist>view:nth-child(2)>view:nth-child(3)>view{
+  border: #ddd 1px solid;
+  padding: 5rpx 10rpx;
+  border-radius: 20rpx;
+}
+.shoplist>view:nth-child(2)>view:nth-child(3)>view:first-child{
+  border:0
+}
+.gm{
+  position: relative;
+  padding: 20rpx 0;
+  width: 750rpx;
+  text-align: center;
+  background: #fff;
+  font-size: 24rpx;
+}
+.gm .gmbtn{
+  position: absolute;
+  padding: 20rpx 350rpx;
+  left: 0;
+  top: 0;
+  opacity: 0 
+}
+.bill{
+  background: #fff;
+  padding: 0 20rpx;
+  margin-top: 20rpx;
+  color: #4a4a4a
+}
+.bill>view{
+  display: flex;
+  font-size: 32rpx;
+  padding: 28rpx 0;
+  border-bottom: 2rpx solid #eee;
+}
+.times{
+  padding: 28rpx;
+  background: #fff;
+  font-size: 28rpx;
+  color: #4a4a4a;
+  margin-top: 20rpx;
+}
+.money{
+  margin-top: 20rpx;
+}
+.red{
+  color: #F02025
+}
+.payment{
+  display: flex;
+  padding: 20rpx;
+  background: #fff;
+  font-size: 32rpx;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: #4a4a4a
+}
+
+.omit{
+  height: 8rpx;
+  width: 24rpx;
+  display: block;
+  padding: 0 20rpx;
+}
+.payment>view:last-child{
+  display: flex;
+  align-items: center
+}
+.cell {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #4a4a4a;
+  font-size: 32rpx;
+  padding: 40rpx 20rpx;
+  font-weight: 600;
+  margin-top: 20rpx;
+  background: #fff
+}
+
+.cell image {
+  height: 14rpx;
+  width: 24rpx;
+}
+
+.cell>view:last-child {
+  display: flex;
+  font-size: 24rpx;
+  color: #9b9b9b;
+}
+.privilege2{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap
+}
+.privilege2>view{
+  width: 336rpx;
+  padding-bottom: 40rpx;
+}
+.privilege2 image{
+  height: 336rpx;
+  width: 336rpx;
+}
+.privilege2>view>view:nth-child(2){
+  font-size: 30rpx;
+  color: #333
+}
+.privilege2>view>view:nth-child(3){
+  font-size: 36rpx;
+  color: #F55748
+}
+.privilege2>view>view:nth-child(4){
+  color: #999;
+  font-size: 24rpx;
+}

@@ -1,0 +1,126 @@
+<van-notice-bar color="#D07436" left-icon="../../image/icon_warn.png" text="温馨提示：订单中包含不可退货商品，请确认相关产品信息后提交订单！" />
+<view class='address' bindtap='address'>
+  <view>
+    <view>{{address.userName}}</view>
+    <view>{{address.telNumber}}</view>
+  </view>
+  <view>{{address.provinceName}}{{address.cityName}}{{address.detailInfo}}</view>
+  <image class='' src='../../image/wire.png'></image>
+</view>
+
+<view class='payment'>
+  <view>支付方式</view>
+  <view>
+    <view>在线支付</view>
+    <view>
+      <image class='omit' src='../../image/icon_omit.png'></image>
+    </view>
+  </view>
+</view>
+
+<view class='shopname'>
+  <view>糖卡自营店</view>
+  <view>
+    <scroll-view scroll-x="true" style="white-space: nowrap; display: block" class="showmian">
+      <image src='../../image/imgtest.jpg'></image>
+      <image src='../../image/imgtest.jpg'></image>
+      <image src='../../image/imgtest.jpg'></image>
+      <image src='../../image/imgtest.jpg'></image>
+      <image src='../../image/imgtest.jpg'></image>
+
+    </scroll-view>
+  </view>
+  <view class='payment'>
+    <view>配送</view>
+    <view>
+      <view>顺丰快递</view>
+      <view>
+        <image class='omit' src='../../image/icon_omit.png'></image>
+      </view>
+    </view>
+
+  </view>
+  <view class='payment'>
+    <view>送货时间</view>
+    <view>
+      <view class='red'>选择送货时间</view>
+      <view>
+        <image class='omit' src='../../image/icon_omit.png'></image>
+      </view>
+    </view>
+
+  </view>
+</view>
+
+<view class='cont3'>
+  <view class='payment'>
+    <view>发票</view>
+    <view>
+      <view class='red'>电子(商品明细-个人)</view>
+      <view>
+        <image class='omit' src='../../image/icon_omit.png'></image>
+      </view>
+    </view>
+
+  </view>
+  <view class='payment'>
+    <view>优惠券</view>
+    <view>
+      <view class='red'>可用优惠券</view>
+      <view>
+        <image class='omit' src='../../image/icon_omit.png'></image>
+      </view>
+    </view>
+
+  </view>
+  <view class='payment'>
+    <view>会员特权
+      <text>(可省￥30.00)</text>
+    </view>
+    <view>
+      <view>顺丰快递</view>
+      <view>
+        <image class='omit' src='../../image/icon_omit.png'></image>
+      </view>
+    </view>
+
+  </view>
+</view>
+
+<view class='money'>
+  <view class='payment'>
+    <view>商品金额
+    </view>
+    <view class='pright'>
+      <view>2323.00</view>
+    </view>
+  </view>
+  <view class='payment'>
+    <view>优惠
+    </view>
+    <view class='pright'>
+      <view class='red'>-53.00</view>
+    </view>
+  </view>
+  <view class='payment'>
+    <view>会员权益
+    </view>
+    <view class='pright'>
+      <view class='red'>-23.00</view>
+    </view>
+  </view>
+  <view class='payment'>
+    <view>运费
+    </view>
+    <view class='pright'>
+      <view class='red'>8.00</view>
+    </view>
+  </view>
+</view>
+
+<view class="foots"></view>
+<view class="foot  {{isIpx?'mb68':''}}">
+  <view class='red'>￥2222.00</view>
+  <view>提交订单</view>
+</view>
+<view class="button-group {{isIpx?'fix-iphonex-button':''}}"></view> 

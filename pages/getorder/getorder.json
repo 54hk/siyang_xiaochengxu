@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "填写订单",
+  "usingComponents": {
+    "van-notice-bar": "../../dist/notice-bar/index",
+    "van-icon": "../../dist/icon/index"
+  }
+}

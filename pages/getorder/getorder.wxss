@@ -1,0 +1,100 @@
+page{
+  background: #fbfbfb
+}
+.address{
+  background: #fff;
+  width: 710rpx;
+  margin: 0 auto;
+    margin-bottom: 20rpx;
+    margin-top: 20rpx;
+}
+.red{
+  color: #F55748
+}
+.pright{
+  padding-right: 20rpx;
+}
+.address>view:first-child{
+  display: flex;
+  font-size: 32rpx;
+  padding: 0 20rpx;
+  padding-top: 10rpx;
+}
+.address>view:first-child>view:first-child{
+  padding-right: 30rpx;
+}
+.address>view:nth-child(2){
+  font-size: 24rpx;
+  padding: 20rpx 20rpx 0 20rpx;
+}
+.address image{
+  height: 4rpx;
+  width: 710rpx;
+
+}
+.payment{
+  display: flex;
+  padding: 20rpx 0rpx;
+  background: #fff;
+  font-size: 32rpx;
+  justify-content: space-between;
+  width: 710rpx;
+  margin: 0 auto;
+}
+.payment>view:first-child{
+  padding: 0 20rpx;
+}
+.omit{
+  height: 8rpx;
+  width: 24rpx;
+  display: block;
+  padding: 0 20rpx;
+}
+.payment>view:last-child{
+  display: flex;
+  align-items: center
+}
+.shopname{
+  width: 710rpx;
+  margin: 0 auto;
+  background: #fff
+}
+.shopname>view:first-child{
+  padding: 20rpx;
+  font-size: 32rpx;
+}
+.shopname>view:nth-child(2) image{
+  padding:0 0 20rpx 20rpx ;
+  height: 128rpx;
+  width: 128rpx;
+}
+.cont3{
+  margin-top: 20rpx;
+}
+.money{
+  margin-top: 20rpx;
+}
+.foot{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff
+}
+.foot>view{
+  padding: 30rpx 0
+}
+.foot>view:first-child{
+  padding-left: 40rpx;
+}
+.foot>view:last-child{
+  text-align: center;
+  width: 40%;
+  background:linear-gradient(180deg,rgba(255,240,115,1) 0%,rgba(253,221,63,1) 100%);
+}
+.foots{
+  height: 166rpx
+}

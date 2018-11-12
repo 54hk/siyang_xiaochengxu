@@ -1,0 +1,125 @@
+<image class="tit" src="../../image/mytit.png"></image>
+<view class='user'>
+  <view>
+    <view>
+      <open-data type="userNickName" lang="zh_CN"></open-data>
+    </view>
+    <view>
+      <view>正式会员</view>
+    </view>
+  </view>
+  <view>
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+</view>
+
+<view class='order'>
+  <view>我的订单</view>
+  <view>
+    <view data-order="0" bindtap='order'>
+      <view>
+        <image src='../../image/icon_order1.png'></image>
+      </view>
+      <view>全部订单</view>
+    </view>
+    <view data-order="1" bindtap='order'>
+      <view>
+        <image src='../../image/icon_order2.png'></image>
+      </view>
+      <view>待支付</view>
+    </view>
+    <view data-order="2" bindtap='order'>
+      <view>
+        <image src='../../image/icon_order3.png'></image>
+      </view>
+      <view>待收货</view>
+    </view>
+    <view data-order="3" bindtap='order'>
+      <view>
+        <image src='../../image/icon_order4.png'></image>
+      </view>
+      <view>待评价</view>
+    </view>
+    <view data-order="4" bindtap='order'>
+      <view>
+        <image src='../../image/icon_order5.png'></image>
+      </view>
+      <view>售后/退货</view>
+    </view>
+  </view>
+</view>
+
+<view class='account'>
+  <view>
+    <view>
+      <image src='../../image/icon_order6.png'></image>
+    </view>
+    <view>我的账户</view>
+  </view>
+
+  <view bindtap='coupons'>
+    <view>78</view>
+    <view>优惠券</view>
+  </view>
+
+  <view>
+    <view>78.00</view>
+    <view>奖励金</view>
+  </view>
+
+  <view>
+    <view>78</view>
+    <view>收藏商品</view>
+  </view>
+
+  <view>
+    <view>78</view>
+    <view>收藏店铺</view>
+  </view>
+</view>
+
+
+<view class='banner'>
+  <image src='../../image/banner_my.png'></image>
+</view>
+
+
+<view class='cellback'>
+  <view class='cell'>
+  <view>糖卡会员专享好物</view>
+  <view>
+    <view>更多</view>
+    <view>
+      <image src='../../image/right.png'></image>
+    </view>
+  </view>
+</view>
+</view>
+
+
+<view class='privilege2'>
+  <view>
+    <view><image src='../../image/imgtest.jpg'></image></view>
+    <view>欧舒丹甜蜜樱花沐浴啫喱/身体乳套装</view>
+    <view>￥56</view>
+    <view>月销1234件</view>
+  </view>
+  <view>
+    <view><image src='../../image/imgtest.jpg'></image></view>
+    <view>欧舒丹甜蜜樱花沐浴啫喱/身体乳套装</view>
+    <view>￥56</view>
+    <view>月销1234件</view>
+  </view>
+  <view>
+    <view><image src='../../image/imgtest.jpg'></image></view>
+    <view>欧舒丹甜蜜樱花沐浴啫喱/身体乳套装</view>
+    <view>￥56</view>
+    <view>月销1234件</view>
+  </view>
+  <view>
+    <view><image src='../../image/imgtest.jpg'></image></view>
+    <view>欧舒丹甜蜜樱花沐浴啫喱/身体乳套装</view>
+    <view>￥56</view>
+    <view>月销1234件</view>
+  </view>
+</view>

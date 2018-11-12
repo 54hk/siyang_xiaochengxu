@@ -1,0 +1,238 @@
+<!--pages/order/order.wxml-->
+
+<van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="全部">全部订单</van-tab>
+  <van-tab title="待付款">
+    <view class='tab2'>
+      <view class='tab_cont1'>
+        <view>
+          <view><image src='../../image/icon_tk.png'></image></view>
+          <view>糖卡会员店</view>
+          <view><image src='../../image/right.png'></image></view>
+        </view>
+        <view>等待付款</view>
+      </view>
+  
+      <view class='tab_cont2'>
+        <view>
+          <view><image src='../../image/imgtest.jpg'></image></view>
+          <view>绿联安卓转Type-C转接头手机数据线充我觉得充电贼快非常ok</view>
+        </view>
+      </view>
+
+
+      <view class='tab_cont3'>
+        <view></view>
+        <view>共2件商品 实付款：<text>￥1234.00</text></view>
+        
+      </view>
+
+      <view class='tab_cont4'>
+        <view></view>
+        <view>
+          <view bindtap='orderdetails'>查看订单</view>
+          <view class='red'>立即支付</view>
+        </view>
+      </view>
+    </view>
+
+    <view class='tab2'>
+      <view class='tab_cont1'>
+        <view>
+          <view><image src='../../image/icon_tk.png'></image></view>
+          <view>糖卡会员店</view>
+          <view><image src='../../image/right.png'></image></view>
+        </view>
+        <view>等待付款</view>
+      </view>
+     
+      <view class='tab_cont2'>
+        <view>
+          <view><image src='../../image/imgtest.jpg'></image></view>
+          <view>绿联安卓转Type-C转接头手机数据线充我觉得充电贼快非常ok</view>
+        </view>
+      </view>
+
+
+      <view class='tab_cont3'>
+        <view></view>
+        <view>共2件商品 实付款：<text>￥1234.00</text></view>
+        
+      </view>
+
+      <view class='tab_cont4'>
+        <view></view>
+        <view>
+          <view bindtap='orderdetails'>查看订单</view>
+          <view class='red'>立即支付</view>
+        </view>
+      </view>
+    </view>
+  </van-tab>
+  <van-tab title="待收货">
+  <view class='tab2'>
+      <view class='tab_cont1'>
+        <view>
+          <view><image src='../../image/icon_tk.png'></image></view>
+          <view>糖卡会员店</view>
+          <view><image src='../../image/right.png'></image></view>
+        </view>
+        <view>等待收货</view>
+      </view>
+      <view class='kd'>
+        <view><image src='../../image/icon_kuaid.png'></image></view>
+        <view>
+          <view>您的订单在糖卡【华东外单分拣中心】发货完成。准备送往王卡【北京潮涌去分拣中心】</view>
+          <view>2018-10-18 16:20:20</view>
+        </view>
+      </view>
+      <view class='tab_cont2'>
+        <view>
+          <view><image src='../../image/imgtest.jpg'></image></view>
+          <view>绿联安卓转Type-C转接头手机数据线充我觉得充电贼快非常ok</view>
+        </view>
+      </view>
+
+
+      <view class='tab_cont3'>
+        <view></view>
+        <view>共2件商品 实付款：<text>￥1234.00</text></view>
+        
+      </view>
+
+      <view class='tab_cont4'>
+        <view></view>
+        <view>
+          <view bindtap='orderdetails'>查看订单</view>
+          <view bindtap='logistice'>查看物流</view>
+          <view class='red'>确认收货</view>
+        </view>
+      </view>
+    </view>
+
+    <view class='tab2'>
+      <view class='tab_cont1'>
+        <view>
+          <view><image src='../../image/icon_tk.png'></image></view>
+          <view>糖卡会员店</view>
+          <view><image src='../../image/right.png'></image></view>
+        </view>
+        <view>等待收货</view>
+      </view>
+      <view class='kd'>
+        <view><image src='../../image/icon_kuaid.png'></image></view>
+        <view>
+          <view>您的订单在糖卡【华东外单分拣中心】发货完成。准备送往王卡【北京潮涌去分拣中心】</view>
+          <view>2018-10-18 16:20:20</view>
+        </view>
+      </view>
+      <view class='tab_cont2'>
+        <view>
+          <view><image src='../../image/imgtest.jpg'></image></view>
+          <view>绿联安卓转Type-C转接头手机数据线充我觉得充电贼快非常ok</view>
+        </view>
+      </view>
+
+
+      <view class='tab_cont3'>
+        <view></view>
+        <view>共2件商品 实付款：<text>￥1234.00</text></view>
+        
+      </view>
+
+      <view class='tab_cont4'>
+        <view></view>
+        <view>
+          <view bindtap='orderdetails'>查看订单</view>
+          <view bindtap='logistice'>查看物流</view>
+          <view class='red'>确认收货</view>
+        </view>
+      </view>
+    </view>
+  
+  </van-tab>
+  <van-tab title="完成">
+    <view class='tab2'>
+      <view class='tab_cont1'>
+        <view>
+          <view><image src='../../image/icon_tk.png'></image></view>
+          <view>糖卡会员店</view>
+          <view><image src='../../image/right.png'></image></view>
+        </view>
+        <view>已完成</view>
+      </view>
+      <view class='kd'>
+        <view><image src='../../image/icon_kuaid.png'></image></view>
+        <view>
+          <view>您的订单在糖卡【华东外单分拣中心】发货完成。准备送往王卡【北京潮涌去分拣中心】</view>
+          <view>2018-10-18 16:20:20</view>
+        </view>
+      </view>
+      <view class='tab_cont2'>
+        <view>
+          <view><image src='../../image/imgtest.jpg'></image></view>
+          <view>绿联安卓转Type-C转接头手机数据线充我觉得充电贼快非常ok</view>
+        </view>
+      </view>
+
+
+      <view class='tab_cont3'>
+        <view></view>
+        <view>共2件商品 实付款：<text>￥1234.00</text></view>
+        
+      </view>
+
+      <view class='tab_cont4'>
+        <view></view>
+        <view>
+          <view>查看发票</view>
+          <view bindtap='orderdetails'>查看订单</view>
+          <view class='red'>再次购买</view>
+        </view>
+      </view>
+    </view>
+  
+  </van-tab>
+  <van-tab title="取消">
+    <view class='tab2'>
+      <view class='tab_cont1'>
+        <view>
+          <view><image src='../../image/icon_tk.png'></image></view>
+          <view>糖卡会员店</view>
+          <view><image src='../../image/right.png'></image></view>
+        </view>
+        <view>已取消</view>
+      </view>
+      <view class='kd'>
+        <view><image src='../../image/icon_kuaid.png'></image></view>
+        <view>
+          <view>您的订单在糖卡【华东外单分拣中心】发货完成。准备送往王卡【北京潮涌去分拣中心】</view>
+          <view>2018-10-18 16:20:20</view>
+        </view>
+      </view>
+      <view class='tab_cont2'>
+        <view>
+          <view><image src='../../image/imgtest.jpg'></image></view>
+          <view>绿联安卓转Type-C转接头手机数据线充我觉得充电贼快非常ok</view>
+        </view>
+      </view>
+
+
+      <view class='tab_cont3'>
+        <view></view>
+        <view>共2件商品 实付款：<text>￥1234.00</text></view>
+        
+      </view>
+
+      <view class='tab_cont4'>
+        <view></view>
+        <view>
+          
+          <view bindtap='orderdetails'>查看订单</view>
+          <view class='red'>重新购买</view>
+        </view>
+      </view>
+    </view>
+  
+  </van-tab>
+</van-tabs>

@@ -1,0 +1,46 @@
+<view class='tit'>
+  <view>物流公司：宅急送</view>
+  <view>运单编号：8888888888888</view>
+</view>
+<van-steps
+  steps="{{ steps }}"
+  active="{{ 0 }}"
+  direction="vertical"
+  active-color="#f44"
+/>
+
+<view class='cell'>
+  <view>糖卡会员专享好物</view>
+  <view>
+    <view>更多</view>
+    <view>
+      <image src='../../image/right.png'></image>
+    </view>
+  </view>
+</view>
+<view class='privilege2'>
+  <view>
+    <view><image src='../../image/imgtest.jpg'></image></view>
+    <view>欧舒丹甜蜜樱花沐浴啫喱/身体乳套装</view>
+    <view>￥56</view>
+    <view>月销1234件</view>
+  </view>
+  <view>
+    <view><image src='../../image/imgtest.jpg'></image></view>
+    <view>欧舒丹甜蜜樱花沐浴啫喱/身体乳套装</view>
+    <view>￥56</view>
+    <view>月销1234件</view>
+  </view>
+  <view>
+    <view><image src='../../image/imgtest.jpg'></image></view>
+    <view>欧舒丹甜蜜樱花沐浴啫喱/身体乳套装</view>
+    <view>￥56</view>
+    <view>月销1234件</view>
+  </view>
+  <view>
+    <view><image src='../../image/imgtest.jpg'></image></view>
+    <view>欧舒丹甜蜜樱花沐浴啫喱/身体乳套装</view>
+    <view>￥56</view>
+    <view>月销1234件</view>
+  </view>
+</view>
